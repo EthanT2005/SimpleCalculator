@@ -14,10 +14,10 @@ public class Calculator {
                 Scanner sr = new Scanner(System.in);
 
                 System.out.println("Enter the first number");
-                int num1 = sr.nextInt();
+                double num1 = sr.nextDouble();
 
                 System.out.println("Enter the second number");
-                int num2 = sr.nextInt();
+                double num2 = sr.nextDouble();
 
                 System.out.println("Enter a number to choose to Subtract, Add, Multiply, or Divide the numbers");
                 System.out.println("\n 1 = Add");
